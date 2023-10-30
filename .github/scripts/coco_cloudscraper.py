@@ -2,7 +2,7 @@ import cloudscraper
 
 scraper = cloudscraper.create_scraper()
 
-url = "https://www.cocomanga.com/js/custom.js"
+url = "https://www.colamanga.com/js/custom.js"
 js = scraper.get(url).text
 print(js)
 
