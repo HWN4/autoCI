@@ -20,7 +20,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = uc.Chrome(options=options, version_main=version_main)
 
-url = "https://www.cocomanga.com/js/custom.js"
+url = "https://www.colamanga.com/js/custom.js"
 driver.get(url)
 sleep(10)
 print(driver.page_source[0:200])
